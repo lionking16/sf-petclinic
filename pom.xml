@@ -14,7 +14,7 @@
     </parent>
     <groupId>gochad.sf</groupId>
     <artifactId>sf-petclinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>sf-petclinic</name>
     <description>Spring Frameswork Pet Clinic Project</description>
 
@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/lionking16/sf-petclinic.git</developerConnection>
-      <tag>sf-petclinic-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
