@@ -3,11 +3,12 @@ package gochad.sf.sfpetclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/owners")
 @Controller
-public class OwnerController {
+public class OwnersController {
 
-    @RequestMapping({"/owner", "/owner/index", "/owner/index.html"})
+    @RequestMapping({"", "/", "/index", "/index.html"})
     public String getOwners(){
-        return "owner/index";
+        return "owners/index";
     }
 }
